@@ -26,7 +26,7 @@ apply plugin: 'kotlin-android'
 
 android {
     compileSdkVersion 34
-
+    namespace 'kent.chien.client_information'
     sourceSets {
         main.java.srcDirs += 'src/main/kotlin'
     }
